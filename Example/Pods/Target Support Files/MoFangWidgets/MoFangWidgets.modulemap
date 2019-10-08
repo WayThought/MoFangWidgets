@@ -1,0 +1,6 @@
+framework module MoFangWidgets {
+  umbrella header "MoFangWidgets-umbrella.h"
+
+  export *
+  module * { export * }
+}

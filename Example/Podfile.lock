@@ -1,0 +1,16 @@
+PODS:
+  - MoFangWidgets (0.1.0)
+
+DEPENDENCIES:
+  - MoFangWidgets (from `../`)
+
+EXTERNAL SOURCES:
+  MoFangWidgets:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MoFangWidgets: e59f9f876309fb43aca2e90ee5b6b349b3291d61
+
+PODFILE CHECKSUM: f61e0aae07a45cc2e83c6f45d60a49ee55cc313b
+
+COCOAPODS: 1.7.4

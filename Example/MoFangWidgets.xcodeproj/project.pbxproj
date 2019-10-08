@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0158F40925BDF131ED7B434C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0158F40925BDF131ED7B434C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		30675FF06FDF8C3B39BB2773 /* Pods-MoFangWidgets_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFangWidgets_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MoFangWidgets_Tests/Pods-MoFangWidgets_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		33E2E8FD7D50914E070D3FAB /* Pods-MoFangWidgets_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFangWidgets_Tests.release.xcconfig"; path = "Target Support Files/Pods-MoFangWidgets_Tests/Pods-MoFangWidgets_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		556BFFE73406864C0DA6D820 /* Pods_MoFangWidgets_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoFangWidgets_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,10 +61,10 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D2A1FB4D45C14548E5085DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7D2A1FB4D45C14548E5085DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		80936F1418AB66ACAAE9E443 /* Pods-MoFangWidgets_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFangWidgets_Example.release.xcconfig"; path = "Target Support Files/Pods-MoFangWidgets_Example/Pods-MoFangWidgets_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F7402BE25FAF415ED0B7B55 /* MoFangWidgets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MoFangWidgets.podspec; path = ../MoFangWidgets.podspec; sourceTree = "<group>"; };
+		8F7402BE25FAF415ED0B7B55 /* MoFangWidgets.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MoFangWidgets.podspec; path = ../MoFangWidgets.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F611A5EB7E516353B90C3E9 /* Pods_MoFangWidgets_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoFangWidgets_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE68CC450A4F79037A4C03FA /* Pods-MoFangWidgets_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoFangWidgets_Example.debug.xcconfig"; path = "Target Support Files/Pods-MoFangWidgets_Example/Pods-MoFangWidgets_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				30675FF06FDF8C3B39BB2773 /* Pods-MoFangWidgets_Tests.debug.xcconfig */,
 				33E2E8FD7D50914E070D3FAB /* Pods-MoFangWidgets_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
